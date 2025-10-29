@@ -1,7 +1,9 @@
 {
-  "name": "mid",
   "packageManager": "yarn@4.6.0",
   "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "lint": "eslint",
     "format": "prettier --write ."

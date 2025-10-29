@@ -483,6 +483,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mid/core@workspace:packages/core":
+  version: 0.0.0-use.local
+  resolution: "@mid/core@workspace:packages/core"
+  dependencies:
+    typescript: "npm:^5.9.2"
+    vitest: "npm:^3.2.4"
+    zod: "npm:^4.1.12"
+  languageName: unknown
+  linkType: soft
+
+"@mid/examples@workspace:packages/examples":
+  version: 0.0.0-use.local
+  resolution: "@mid/examples@workspace:packages/examples"
+  dependencies:
+    typescript: "npm:^5.9.2"
+    vitest: "npm:^3.2.4"
+    zod: "npm:^4.1.12"
+  languageName: unknown
+  linkType: soft
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -2004,25 +2024,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mid@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "mid@workspace:."
-  dependencies:
-    "@ianvs/prettier-plugin-sort-imports": "npm:^4.7.0"
-    "@tsconfig/node24": "npm:^24.0.1"
-    "@types/node": "npm:^24.8.1"
-    dotenv: "npm:^17.2.3"
-    eslint: "npm:^9.38.0"
-    eslint-config-prettier: "npm:^10.1.8"
-    globals: "npm:^16.4.0"
-    prettier: "npm:^3.6.2"
-    typescript: "npm:^5.9.3"
-    typescript-eslint: "npm:^8.46.1"
-    vitest: "npm:^3.2.4"
-    zod: "npm:^4.1.12"
-  languageName: unknown
-  linkType: soft
-
 "minimatch@npm:^3.1.2":
   version: 3.1.2
   resolution: "minimatch@npm:3.1.2"
@@ -2452,6 +2453,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"root-workspace-0b6124@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "root-workspace-0b6124@workspace:."
+  dependencies:
+    "@ianvs/prettier-plugin-sort-imports": "npm:^4.7.0"
+    "@tsconfig/node24": "npm:^24.0.1"
+    "@types/node": "npm:^24.8.1"
+    dotenv: "npm:^17.2.3"
+    eslint: "npm:^9.38.0"
+    eslint-config-prettier: "npm:^10.1.8"
+    globals: "npm:^16.4.0"
+    prettier: "npm:^3.6.2"
+    typescript: "npm:^5.9.3"
+    typescript-eslint: "npm:^8.46.1"
+    vitest: "npm:^3.2.4"
+    zod: "npm:^4.1.12"
+  languageName: unknown
+  linkType: soft
+
 "run-parallel@npm:^1.1.9":
   version: 1.2.0
   resolution: "run-parallel@npm:1.2.0"
@@ -2730,7 +2750,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.9.3":
+"typescript@npm:^5.9.2, typescript@npm:^5.9.3":
   version: 5.9.3
   resolution: "typescript@npm:5.9.3"
   bin:
@@ -2740,7 +2760,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.9.3#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A^5.9.2#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.9.3#optional!builtin<compat/typescript>":
   version: 5.9.3
   resolution: "typescript@patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"
   bin:

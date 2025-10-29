@@ -1,0 +1,26 @@
+{
+  "name": "@mid/core",
+  "type": "module",
+  "installConfig": {
+    "hoistingLimits": "workspaces"
+  },
+  "main": "src/index.ts",
+  "packageManager": "yarn@4.10.3",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "prettier": "prettier --write . '!**/*.{js,d.ts}'",
+    "prettier:ci": "prettier -c . '!**/*.{js,d.ts}'",
+    "lint": "eslint --fix .",
+    "lint:ci": "eslint .",
+    "test": "yarn test:unit",
+    "test:unit": "vitest run --config ./vitest.config.ts",
+    "test:unit:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "zod": "^4.1.12"
+  }
+}
