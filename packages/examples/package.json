@@ -17,10 +17,13 @@
     "test:unit:watch": "vitest"
   },
   "devDependencies": {
+    "@types/aws-lambda": "^8.10.157",
     "typescript": "^5.9.2",
     "vitest": "^3.2.4"
   },
   "dependencies": {
+    "@mid/core": "workspace:^",
+    "aws-lambda": "^1.0.7",
     "zod": "^4.1.12"
   }
 }

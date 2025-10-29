@@ -4,7 +4,7 @@
   "installConfig": {
     "hoistingLimits": "workspaces"
   },
-  "main": "src/index.ts",
+  "main": "src/mid.ts",
   "packageManager": "yarn@4.10.3",
   "scripts": {
     "typecheck": "tsc --noEmit",
