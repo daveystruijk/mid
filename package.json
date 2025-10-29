@@ -1,5 +1,5 @@
 {
-  "name": "chessbot",
+  "name": "mid",
   "packageManager": "yarn@4.6.0",
   "type": "module",
   "scripts": {
@@ -7,7 +7,6 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@slack/bolt": "^4.5.0",
     "dotenv": "^17.2.3",
     "zod": "^4.1.12"
   },
