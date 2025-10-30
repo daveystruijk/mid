@@ -487,6 +487,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@mid/core@workspace:packages/core"
   dependencies:
+    "@types/aws-lambda": "npm:^8.10.157"
+    aws-lambda: "npm:^1.0.7"
     typescript: "npm:^5.9.2"
     vitest: "npm:^3.2.4"
     zod: "npm:^4.1.12"

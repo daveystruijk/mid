@@ -4,7 +4,7 @@
   "installConfig": {
     "hoistingLimits": "workspaces"
   },
-  "main": "src/mid.ts",
+  "main": "src/index.ts",
   "packageManager": "yarn@4.10.3",
   "scripts": {
     "typecheck": "tsc --noEmit",
@@ -17,10 +17,12 @@
     "test:unit:watch": "vitest"
   },
   "devDependencies": {
+    "@types/aws-lambda": "^8.10.157",
     "typescript": "^5.9.2",
     "vitest": "^3.2.4"
   },
   "dependencies": {
+    "aws-lambda": "^1.0.7",
     "zod": "^4.1.12"
   }
 }
